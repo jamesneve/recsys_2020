@@ -1,3 +1,4 @@
 /models
 main.py
 .idea/
+*.pyc
