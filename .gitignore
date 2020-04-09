@@ -2,3 +2,4 @@
 main.py
 .idea/
 *.pyc
+*/__pycache__
