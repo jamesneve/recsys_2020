@@ -24,6 +24,8 @@ class Recommender:
 
     @staticmethod
     def aggregate_preference_scores(m_f_score, f_m_score):
+        if m_f_score == 0.0 or f_m_score == 0.0:
+            return 0.0
         aggregated_score = stats.hmean([m_f_score, f_m_score])
 
         return aggregated_score
